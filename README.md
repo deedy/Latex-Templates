@@ -8,39 +8,39 @@ There are currently **9** templates.
 
 The format **.xtx** is a convenient extension for TeX files that need to be compiled with XeTeX.
 
-##  Article - ACM SIG
+##  [Article - ACM SIG](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/ACMSIG)
 The [ACM SIG Proceedings](http://www.acm.org/sigs/publications/proceedings)-templates format - The Association of Computing Machinery's conference on Special Interest Groups.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ACMSIG.png)
 
-## Article - Color Title
+## [Article - Color Title](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/ColorTitle)
 A colorful template from [LatexTemplates.com](http://www.latextemplates).com/template/large-colored-title-article) for a bright article.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ColorTitle.png)
 
-## Article - ICML
+## [Article - ICML](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/ICML12)
 The [ICML](http://icml.cc/) - The International Conference on Machine Learning's [format](http://icml.cc/2014/image/icml2014stylefiles.zip).
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ICML12.png)
 
-## Article - Journal Article
+## [Article - Journal Article](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/JournalArticle)
 A great template from [LatexTemplates.com](http://www.latextemplates).com/template/journal-article for a quick single columned simple journal article.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-JournalArticle.png)
 
-## Article - NIPS
+## [Article - NIPS](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/NIPS13)
 The [NIPS](http://nips.cc/) - The Neural Information Processing Systems Foundation's [format](http://nips.cc/Conferences/2013/PaperInformation/StyleFiles).
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-NIPS13.png)
 
-## Article - PNAS
+## [Article - PNAS](https://github.com/deedydas/Latex-Templates/tree/master/Article-Journal/PNAS)
 The [PNAS Conference](http://www.pnas.org/) - The Proceedings of the National Academy of Science - has a special Latex [format](http://www.pnas.org/site/authors/LaTex.xhtml) too.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-PNAS.png)
 
-## CV - Friggeri
+## [CV - Friggeri](https://github.com/deedydas/Latex-Templates/tree/master/CV/Friggeri)
 A legendary Latex CV template by [Adrien Friggeri](http://friggeri.net/) originally created [here](https://github.com/afriggeri/cv.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/CV-Friggeri.png)
 
-## Essay
+## [Essay](https://github.com/deedydas/Latex-Templates/tree/master/Essay)
 A great template from [LatexTemplates.com](http://www.latextemplates.com/template/thin-sectioned-essay) for quick cited Essay writing.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Essay.png)
 
-## Problem Set - Kleinberg
+## [Problem Set - Kleinberg](https://github.com/deedydas/Latex-Templates/tree/master/ProblemSet/Kleinberg)
 A Latex template used by Jon Kleinberg in his class at Cornell [before](http://www.cs.cornell.edu/Courses/cs683/2001SP/) and possibly to date. 
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/ProblemSet-Kleinberg.png)
 
