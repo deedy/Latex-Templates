@@ -5,6 +5,7 @@ A concise set of Latex templates that serves a small set of needs - CV, Essays, 
 These conferences were chosen either out of personal interest, or simply the beauty of their recommended submission templates. 
 
 There are currently **9** templates.
+
 The format **.xtx** is a convenient extension for TeX files that need to be compiled with XeTeX.
 
 ##  Article - ACM SIG
