@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{epic}
+\usepackage{eepic}
+\usepackage{graphicx}
+
+\newcommand{\proof}[1]{
+{\noindent {\it Proof.} {#1} \rule{2mm}{2mm} \vskip \belowdisplayskip}
+}
+
+
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{claim}[lemma]{Claim}
+\newtheorem{definition}[lemma]{Definition}
+\newtheorem{corollary}[lemma]{Corollary}
+
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+
+\begin{document}
+
+\setlength{\fboxrule}{.5mm}\setlength{\fboxsep}{1.2mm}
+\newlength{\boxlength}\setlength{\boxlength}{\textwidth}
+\addtolength{\boxlength}{-4mm}
+\begin{center}\framebox{\parbox{\boxlength}{\bf
+CS 683: Advanced Algorithms \hfill 
+TOPIC
+\\
+DATE
+\hfill
+Scribe: NAMES
+}}\end{center}
+\vspace{5mm}
+
+\section{First Section}
+
+The text of the notes goes here.
+To include a theorem with proof, use the following format.
+
+\begin{theorem}
+This is a theorem statement.
+\label{thm:sample-statement}
+\end{theorem}
+
+\proof{
+This is a proof.
+}
+
+
+
+\end{document}

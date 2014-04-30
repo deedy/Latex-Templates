@@ -1,0 +1,379 @@
+\def\pscurrentversion{April 8b, 2008}
+%\def\pscurrentversion{May 1, 2006}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% PostScript fonts for
+%% PNASOne, the one column journal style for
+%% Proceedings of the National Academy of Sciences
+%%
+%% Prepared by Amy Hendrickson, TeXnology Inc.                          
+%%
+%% For assistance, please contact the PNAS Editorial Office:
+%% 202-334-2679
+%% pnas@nas.edu                       
+%%                                           
+%% Use: \documentclass{pnasone}
+%%      (optional font encoding) \usepackage{t1enc} or \usepackage{OT1enc}
+%%      \usepackage[<driver name>]{graphicx}
+%%      \usepackage[<driver name>]{color}
+%%      \usepackage{pnasonef}
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% You may need to rename these fonts to match the
+%% names of the .tfm files on your system. If you look at
+%% the directory where the .tfm files are stored you should
+%% be able to make the appropriate substitution.
+
+
+%%  Change these definitions, if necessary ====>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Times-Roman
+
+%% Dvipsone Names:
+\def\timesroman{tir}
+\def\timesbold{tib}
+\def\timesitalic{tii}
+\def\timesbolditalic{tibi}
+
+
+%% Karl Berry Names:
+%\def\timesroman{ptmr8t}
+%\def\timesbold{ptmb8t}
+%\def\timesitalic{ptmri8t}
+%\def\timesbolditalic{ptmbi8t}
+
+%% BlueSky or other TeX Systems, write in appropriate font name:
+%\def\timesroman{}
+%\def\timesbold{}
+%\def\timesitalic{}
+%\def\timesbolditalic{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Helvetica
+%------------------
+%% Dvipsone
+\def\helvetica{hv}
+\def\helveticaoblique{hvo}
+\def\helveticaboldoblique{hvbo}
+\def\helveticabold{hvb}
+
+
+%% Karl Berry Names:
+%\def\helvetica{phvr}
+%\def\helveticaoblique{phvro}
+%\def\helveticaboldoblique{phvbo}
+%\def\helveticabold{phvb}
+
+%% BlueSky or other TeX Systems, write in appropriate font name:
+%\def\helvetica{}
+%\def\helveticabold{}
+%\def\helveticaoblique{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Frutiger
+%% Use Helvetica (No need to change these font declarations,
+%% since Helvetica has been defined above.)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Frutiger
+%% Use Helvetica (No need to change these font declarations,
+%% since Helvetica has been defined above.)
+
+\def\frutiger{\helvetica}
+\def\frutigeroblique{\helveticaoblique}
+\def\frutigerbold{\helveticabold}
+\def\frutigerboldcondensed{\helveticabold}
+\def\frutigermed{\helvetica}
+\def\frutigerblackCond{\helveticabold}
+
+%%
+\def\dutchbold{\timesbold}
+\def\dutchmed{\timesroman}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Courier
+%% Computer Modern name
+\def\courier{cmtt10}
+
+% Dvipsone name:
+%\def\courier{com}
+
+% Berry name:
+%\def\courier{pcrr8t}
+
+%% <==== End of changes needed. Please do not make changes below this point.
+%% !!!!!!!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% default definitions, since these fonts 
+%% will not be used:
+\let\xcourier\courier
+\def\courieroblique{pcrro8r}
+\def\courierbold{pcrb8r}
+\def\courierboldoblique{pcrbo8r}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% switch used in documentation:
+\def\psfonts{true}
+
+\global\let\sfdefault\helvetica
+\global\let\rmdefault\timesroman
+\global\let\ttdefault\courier
+
+\typeout{^^J^^J
+-------------------------------------------^^J
+PostScript Fonts for PNAS One Column Journal Style^^J
+\pscurrentversion^^J^^J
+IMPORTANT: If you use font encoding, as
+in \string\usepackage{T1enc},^^J please use it BEFORE
+\string\usepackage{pnasfont}, ie:^^J
+\string\documentclass{pnasone}^^J
+\string\usepackage{T1enc}^^J
+\string\usepackage[driver name]{color}^^J^^J
+\string\usepackage{pnas}^^J
+-------------------------------------------^^J
+^^J
+}
+
+%% Times-Roman
+\xdef\timesroman{\timesroman\space}
+\xdef\timesbold{\timesbold\space}
+\xdef\timesitalic{\timesitalic\space}
+\xdef\timesbolditalic{\timesbolditalic\space}
+
+%% Helvetica
+\xdef\helvetica{\helvetica\space}
+\xdef\helveticabold{\helveticabold\space}
+\xdef\helveticaoblique{\helveticaoblique\space}
+\xdef\helveticaboldoblique{\helveticaboldoblique\space}
+
+%% Frutiger
+\xdef\frutigerbold{\frutigerbold\space}
+\xdef\frutiger{\frutiger\space}
+\xdef\frutigeroblique{\frutigeroblique\space}
+\xdef\frutigerboldcondensed{\frutigerboldcondensed\space}
+
+%% Courier
+\xdef\courier{\courier\space}
+
+%% Special Use Fonts ==>>
+\font\footnotefont\frutigermed at 6pt
+
+\font\dropcapfont=\frutigerbold at 24.5pt
+\font\sideboxfont= \helvetica at 6pt
+
+%% Running feet
+  \font\footlinefont=\frutiger at7pt
+  \font\footlineit=\helveticaoblique at7pt
+  \font\foliofont=\frutigerbold at 7pt
+
+\font\titlefont=\frutigerboldcondensed at 22pt % 24pt baseline
+  \font\authorfont=\frutigerbold at 9pt % 11 pt baseline
+  \font\affilfont=\frutiger at 7pt % 8pt baseline
+  \font\keywordfont=\frutiger at 7pt % 8pt baseline
+
+  \font\copyrightfont=\frutiger at 6pt
+  \font\copyrighttextfont=\frutiger at 6pt
+
+%% Abstract fonts
+\font\xabstractfont=\frutigerbold at 8pt
+\def\abstractfont{\sf\xabstractfont\dospecialaccents}
+\font\abstractit=\helveticaboldoblique at 8pt
+
+%% Bibliography
+\font\xbibfont=\frutigerbold at 6pt
+\def\bibfont{\sf\xbibfont\dospecialaccents}
+\font\bibitfont\helveticaboldoblique at 6pt
+\font\bibbffont\helveticabold at 6pt
+
+%% Materials and Methods
+\font\materialfont=\frutiger at 7pt
+\font\materialbffont=\helveticabold at 7pt
+\font\materialitfont=\helveticaoblique at 7pt
+
+%% Section fonts
+\font\sectionfont=\frutigerblackCond at 9pt
+\font\subsectionfont=\frutigerblackCond at 8pt
+
+%% Theorem fonts
+  \font\theoremfont=\frutigerbold at 8pt
+
+%% Caption 
+ \font\fignumfont=\frutigerbold at 7pt
+\font\xfigtextfont=\frutiger at 7pt
+  \def\figtextfont{\small\dospecialaccents\xfigtextfont} 
+
+%% Table font
+\font\tabletextfont=\frutiger at 7.5pt
+\font\tablenotefont=\frutiger at 6pt
+\font\tablenotebffont=\frutigerbold at 6pt
+\font\tablenoteitfont=\frutigeroblique at 6pt
+\font\tabtextfont\frutigerbold at 8pt
+\font\tabnumfont\frutigerbold at 8pt
+
+\font\footlinefont=\frutiger at7pt
+
+%% ok
+%%% equivalent of bringing in .fd files
+%Filename: <encodingdefault><rmdefault>.fd
+\DeclareFontFamily{\encodingdefault}{\rmdefault}{}
+\DeclareFontShape{\encodingdefault}{\rmdefault}{b}{n}{
+   <-> \timesbold
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{b}{sc}{
+   <-> cmcsc10
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{b}{sl}{
+   <-> \timesbolditalic
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{b}{it}{
+   <-> \timesbolditalic
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{m}{n}{
+   <-> \timesroman
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{m}{sc}{
+   <-> cmcsc10
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{m}{sl}{
+   <-> \timesitalic
+}{}
+
+\DeclareFontShape{\encodingdefault}{\rmdefault}{m}{it}{
+   <-> \timesitalic
+}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{bx}{n}{<->ssub * \rmdefault/b/n}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{bx}{sc}{<->ssub * \rmdefault/b/sc}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{bx}{sl}{<->ssub * \rmdefault/b/sl}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{bx}{it}{<->ssub * \rmdefault/b/it}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{l}{n}{<->ssub * \rmdefault/m/n}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{l}{sc}{<->ssub * \rmdefault/m/sc}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{l}{sl}{<->ssub * \rmdefault/m/sl}{}
+
+\DeclareFontShape{\encodingdefault}
+{\rmdefault}{l}{it}{<->ssub * \rmdefault/m/it}{}
+
+
+%% ok
+%\ProvidesFile{<encodingdefault><ttdefault>.fd}
+%        [1996/02/19 v2.3e Standard LaTeX font definitions]
+
+\DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar \font\m@ne}
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{b}{n}{
+   <-> \courierbold
+}{}
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{b}{sc}{
+   <-> cmcsc10
+}{}
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{b}{sl}{
+   <-> \courierboldoblique
+}{}
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{b}{it}{
+   <-> \courierboldoblique
+}{}
+
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{n}
+     {<-> \courier
+      }{}
+
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{n}
+     {<-> \courier
+      }{}
+%%%%%% make sure subst shapes are available
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{it}
+     {<-> \courieroblique
+      }{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{sl}
+     {<-> \courieroblique
+      }{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{sc}
+     {<-> \courier
+      }{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{m}{ui}
+  {<->sub * \xcourier/m/it}{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{bx}{n}
+  {<->sub * \xcourier/m/n}{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{bx}{it}
+  {<->sub * \xcourier/m/it}{}
+\DeclareFontShape{\encodingdefault}{\ttdefault}{bx}{ui}
+  {<->sub * \xcourier/m/it}{}
+%% 
+%% End of file `<encodingdefault><ttdefault>.fd'.
+
+%Filename: <encodingdefault><sfdefault>.fd
+%\ProvidesFile{\encodingdefaulthv.fd}
+%   [1996/02/19 Fontinst v1.504 font definitions for \encodingdefault/hv.]
+
+\DeclareFontFamily{\encodingdefault}{hv}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{b}{n}{
+   <-> \helveticabold
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{b}{sc}{
+   <-> cmcsc10
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{m}{n}{
+   <-> \helvetica
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{m}{sc}{
+   <-> cmcsc10
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{m}{sl}{
+   <-> \helveticaoblique
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{m}{it}{
+   <-> \helveticaoblique
+}{}
+
+\DeclareFontShape{\encodingdefault}{hv}{bx}{n}{<->ssub * hv/b/n}{}
+\DeclareFontShape{\encodingdefault}{hv}{bx}{sc}{<->ssub * hv/b/sc}{}
+\DeclareFontShape{\encodingdefault}{hv}{bx}{sl}{<->ssub * hv/b/sl}{}
+\DeclareFontShape{\encodingdefault}{hv}{bx}{it}{<->ssub * hv/b/it}{}
+\DeclareFontShape{\encodingdefault}{hv}{l}{n}{<->ssub * hv/m/n}{}
+\DeclareFontShape{\encodingdefault}{hv}{l}{sc}{<->ssub * hv/m/sc}{}
+\DeclareFontShape{\encodingdefault}{hv}{l}{sl}{<->ssub * hv/m/sl}{}
+\DeclareFontShape{\encodingdefault}{hv}{l}{it}{<->ssub * hv/m/it}{}
+
+
+\rm
+
+\let\dospecialaccents\relax
+
+
+
+\endinput
