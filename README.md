@@ -1,10 +1,36 @@
 Latex-Templates
 ===============
 
-A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets
+A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets.
+These conferences were chosen either out of personal interest, or simply the beauty of their recommended submission templates. 
 
-
+h3. Article - ACM SIG
+The "ACM SIG Proceedings":http://www.acm.org/sigs/publications/proceedings-templates format - The Association of Computing Machinery's conference on Special Interest Groups.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ACMSIG.png)
+h3. Article - Color Title
+A colorful template from LatexTemplates.com:http://www.latextemplates.com/template/large-colored-title-article for a bright article.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ColorTitle.png)
+h3. Article - ICML
+The "ICML":http://icml.cc/ - The International Conference on Machine Learning's "format":http://icml.cc/2014/image/icml2014stylefiles.zip.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ICML12.png)
+h3. Article - Journal Article
+A great template from LatexTemplates.com:http://www.latextemplates.com/template/journal-article for a quick single columned simple journal article.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-JournalArticle.png)
+h3. Article - NIPS
+The "NIPS":http://nips.cc/ - The Neural Information Processing Systems Foundation's "format":http://nips.cc/Conferences/2013/PaperInformation/StyleFiles.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-NIPS13.png)
+h3. Article - PNAS
+The "PNAS Conference":http://www.pnas.org/ - The Proceedings of the National Academy of Science - has a special Latex "format":http://www.pnas.org/site/authors/LaTex.xhtml too.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-PNAS.png)
+h3. CV - Friggeri
+A legendary Latex CV template by "Adrien Friggeri":http://friggeri.net/ originally created "here":https://github.com/afriggeri/cv.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/CV-Friggeri.png)
+h3. Essay
+A great template from LatexTemplates.com:http://www.latextemplates.com/template/thin-sectioned-essay for quick cited Essay writing.
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Essay.png)
+h3. Problem Set - Kleinberg
+A Latex template used by Jon Kleinberg in his class at Cornell "before":http://www.cs.cornell.edu/Courses/cs683/2001SP/ and possibly to date. 
+![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/ProblemSet-Kleinberg.png)
 
 
 
