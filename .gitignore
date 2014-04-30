@@ -1,3 +1,6 @@
+## Temporary Latexian Files
+TSWLatexianTemp*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
