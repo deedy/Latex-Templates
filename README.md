@@ -4,6 +4,8 @@ Latex-Templates
 A concise set of Latex templates that serves a small set of needs - CV, Essays, Articles and Problem Sets.
 These conferences were chosen either out of personal interest, or simply the beauty of their recommended submission templates. 
 
+There are currently *9* templates.
+
 ##  Article - ACM SIG
 The [ACM SIG Proceedings](http://www.acm.org/sigs/publications/proceedings)-templates format - The Association of Computing Machinery's conference on Special Interest Groups.
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-ACMSIG.png)
