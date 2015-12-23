@@ -33,7 +33,7 @@ The [PNAS Conference](http://www.pnas.org/) - The Proceedings of the National Ac
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/Article-PNAS.png)
 
 ## [CV - Friggeri](https://github.com/deedydas/Latex-Templates/tree/master/CV/Friggeri)
-A legendary Latex CV template by [Adrien Friggeri](http://friggeri.net/) originally created [here](https://github.com/afriggeri/cv.
+A legendary Latex CV template by [Adrien Friggeri](http://friggeri.net/) originally created [here](https://github.com/afriggeri/cv).
 ![alt tag](https://raw.githubusercontent.com/deedydas/Latex-Templates/master/Previews/CV-Friggeri.png)
 
 ## [Essay](https://github.com/deedydas/Latex-Templates/tree/master/Essay)
